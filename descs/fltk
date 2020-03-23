@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.  Line
+# up the first '|' above the ':' following the base package name, and the '|'
+# on the right side marks the last column you can put a character in.  You must
+# make exactly 11 lines for the formatting to be correct.  It's also
+# customary to leave one space after the ':'.
+
+    |-----handy-ruler------------------------------------------------------|
+fltk: FLTK - Cross-plaform C++ GUI toolkit
+fltk: 
+fltk: FLTK (pronounced "fulltick"),it provides modern GUI functionality 
+fltk: and supports 3D graphics via OpenGL and its built-in GLUT emulation 
+fltk: libraries used for creating graphical user interfaces for 
+fltk: applications.
+fltk: 
+fltk: 
+fltk: 
+fltk: 
+fltk: 

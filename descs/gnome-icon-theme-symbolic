@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.
+# Line up the first '|' above the ':' following the base package name, and
+# the '|' on the right side marks the last column you can put a character in.
+# You must make exactly 11 lines for the formatting to be correct.  It's also
+# customary to leave one space after the ':' except on otherwise blank lines.i
+#
+                         |-----handy-ruler------------------------------------------------------|
+gnome-ioon-theme-symbolic: gnome-icon-themes-symbolic (gnome icons)
+gnome-icon-theme-symbolic:
+gnome-icon-theme-symbolic: GNOME Icon Theme Symbolic is a collection of symbolic icons for the
+gnome-icon-theme-symbolic: GNOME desktop environment. This package provides GNOME
+gnome-icon-theme-symbolic: users an extra set of icons that are functional and
+gnome-icon-theme-symbolic: attractive, often sporting a distinct appearance that you
+gnome-icon-theme-symbolic: won't find in the primary themes package. Most of the
+gnome-icon-theme-symbolic: graphics in these icons contain SVG vector graphics.
+gnome-icon-theme-symbolic:
+gnome-icon-theme-symbolic:
+gnome-icon-theme-symbolic: http://librsvg.sourceforge.net/theme.php

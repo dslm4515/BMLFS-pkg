@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.  Line
+# up the first '|' above the ':' following the base package name, and the '|'
+# on the right side marks the last column you can put a character in.  You must
+# make exactly 11 lines for the formatting to be correct.  It's also
+# customary to leave one space after the ':'.
+
+     |-----handy-ruler-------------------------------------------------------|
+picom: PiCom
+picom:
+picom: This is forked from the original Compton because it seems to have 
+picom: become unmaintained.
+picom:
+picom: Picom is a standalone compositor for Xorg, suitable for use with 
+picom: window managers that do not provide compositing. Picom is a fork of 
+picom: compton, which is a fork of xcompmgr-dana, which in turn is a fork 
+picom: of xcompmgr.
+picom:
+picom: Homepage: ttps://github.com/yshui/picom

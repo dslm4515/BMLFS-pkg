@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.  Line
+# up the first '|' above the ':' following the base package name, and the '|' on
+# the right side marks the last column you can put a character in.  You must make
+# exactly 11 lines for the formatting to be correct.  It's also customary to
+# leave one space after the ':'.
+
+       |-----handy-ruler------------------------------------------------------|
+elogind: elogind 
+elogind:
+elogind: elogind is the systemd project's "logind", extracted out to be a 
+elogind: standalone daemon. It integrates with Linux-PAM to know the set of 
+elogind: users that are logged in to a system and whether they are logged in 
+elogind: graphically, on the console, or remotely. Elogind exposes this 
+elogind: information via the standard org.freedesktop.login1 D-Bus interface, 
+elogind: as well as through the file system using systemd's standard 
+elogind: /run/systemd layout.
+elogind: 
+elogind: 

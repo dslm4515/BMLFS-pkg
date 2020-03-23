@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description. Line
+# up the first '|' above the ':' following the base package name, and the '|' on
+# the right side marks the last column you can put a character in. You must make
+# exactly 11 lines for the formatting to be correct. It's also customary to
+# leave one space after the ':'.
+
+         |-----handy-ruler------------------------------------------------------|
+linux-pam: linux-pam (Pluggable Authentication Modules)
+linux-pam: 
+linux-pam: Linux-PAM is a library that enables the local system administrator
+linux-pam: to choose how individual applications authenticate users. The purpose
+linux-pam: of the Linux-PAM project is to liberate the development of privilege
+linux-pam: granting software from the development of secure and appropriate
+linux-pam: authentication schemes.
+linux-pam:
+linux-pam: Homepage: https://github.com/linux-pam/linux-pam
+linux-pam:
+linux-pam:

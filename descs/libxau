@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description. Line
+# up the first '|' above the ':' following the base package name, and the '|' on
+# the right side marks the last column you can put a character in. You must make
+# exactly 11 lines for the formatting to be correct. It's also customary to
+# leave one space after the ':'.
+
+      |-----handy-ruler------------------------------------------------------|
+libxau: libXau
+libxau:
+libxau: The libXau package contains a library implementing the X11 
+libxau: Authorization Protocol. This is useful for restricting client 
+libxau: access to the display.
+libxau:
+libxau: Homepage: https://www.x.org
+libxau:
+libxau:
+libxau:
+libxau:

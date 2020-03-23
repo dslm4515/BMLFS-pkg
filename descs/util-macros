@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description. Line
+# up the first '|' above the ':' following the base package name, and the '|' on
+# the right side marks the last column you can put a character in. You must make
+# exactly 11 lines for the formatting to be correct. It's also customary to
+# leave one space after the ':'.
+
+            |-----handy-ruler------------------------------------------------------|
+utils-macros: util-macros
+utils-macros:
+utils-macros: The util-macros package contains the m4 macros used by all of the 
+utils-macros: Xorg packages.
+utils-macros:
+utils-macros: Homepage: https://www.x.org
+utils-macros:
+utils-macros:
+utils-macros:
+utils-macros:
+utils-macros:

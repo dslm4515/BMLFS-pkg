@@ -11,6 +11,7 @@ WARNING: This is currently under development.
 
 <ul>
   <li> build-scripts -- Scripts to automatically build and install packages with pkgtools. </li>
+  <li> descs -- Package descriptions </li>
   <li> files -- Files that may be optional or required for a package build </li>
   <li> patches -- Patches that fix known issues or to allow package to build/run with Musl as libc </li>
   <li> sources -- Packages sources that may be difficult to find or pre-patched </li>

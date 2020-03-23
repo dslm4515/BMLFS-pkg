@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.
+# Line up the first '|' above the ':' following the base package name, and
+# the '|' on the right side marks the last column you can put a character in.
+# You must make exactly 11 lines for the formatting to be correct.  It's also
+# customary to leave one space after the ':' except on otherwise blank lines.i
+#
+           |-----handy-ruler------------------------------------------------------|
+libutempter: uTempter Library
+libutempter:
+libutempter: This library provides interface for terminal emulators such as 
+libutempter: screen and xterm to record user sessions to utmp and wtmp files.
+libutempter:
+libutempter: Homepage: http://sisyphus.ru/ru/srpm/Sisyphus/libutempter
+libutempter:
+libutempter:
+libutempter:
+libutempter:
+libutempter:

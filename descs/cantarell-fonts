@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.  Line
+# up the first '|' above the ':' following the base package name, and the '|'
+# on the right side marks the last column you can put a character in.  You must
+# make exactly 11 lines for the formatting to be correct.  It's also
+# customary to leave one space after the ':'.
+
+               |-----handy-ruler------------------------------------------------------|
+cantarell-fonts: cantarell-fonts
+cantarell-fonts:
+cantarell-fonts: The Cantarell typeface family provides a contemporary Humanist sans 
+cantarell-fonts: serif. It is particularly optimised for legibility at small sizes 
+cantarell-fonts: and is the preferred font family for the GNOME-3 user interface.
+cantarell-fonts:
+cantarell-fonts: Homepage: http://ftp.gnome.org/pub/gnome/sources/cantarell-fonts
+cantarell-fonts:
+cantarell-fonts:
+cantarell-fonts:
+cantarell-fonts:

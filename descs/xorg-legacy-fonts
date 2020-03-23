@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.  Line
+# up the first '|' above the ':' following the base package name, and the '|'
+# on the right side marks the last column you can put a character in.  You must
+# make exactly 11 lines for the formatting to be correct.  It's also
+# customary to leave one space after the ':'.
+
+                 |-----handy-ruler------------------------------------------------------|
+xorg-legacy-fonts: Xorg Legacy Fonts
+xorg-legacy-fonts:
+xorg-legacy-fonts: Xorg's ancestor (X11R1, in 1987) at first only provided bitmap 
+xorg-legacy-fonts: fonts, with a tool (bdftopcf) to assist in their installation. With 
+xorg-legacy-fonts: the introduction of xorg-server-1.19.0 and libXfont2 many people 
+xorg-legacy-fonts: will not need them. 
+xorg-legacy-fonts:  + font-adobe-100dpi
+xorg-legacy-fonts:  + font-adobe-75dpi
+xorg-legacy-fonts:  + font-jis-misc
+xorg-legacy-fonts:  + font-daewoo-misc
+xorg-legacy-fonts:  + font-isas-misc

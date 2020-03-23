@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.  Line
+# up the first '|' above the ':' following the base package name, and the '|' on
+# the right side marks the last column you can put a character in.  You must make
+# exactly 11 lines for the formatting to be correct.  It's also customary to
+# leave one space after the ':'.
+
+           |-----handy-ruler------------------------------------------------------|
+docbook-xml: docbook-xml (DocBook XML)
+docbook-xml:
+docbook-xml: The DocBook XML DTD-4.5 package contains document type definitions
+docbook-xml: for verification of XML data files against the DocBook rule set.
+docbook-xml: These are useful for structuring books and software documentation
+docbook-xml: to a standard allowing you to utilize transformations already
+docbook-xml: written for that standard.
+docbook-xml:
+docbook-xml: Homepage: http://www.docbook.org
+docbook-xml:
+docbook-xml:

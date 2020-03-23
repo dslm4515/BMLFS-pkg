@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.
+# Line up the first '|' above the ':' following the base package name, and
+# the '|' on the right side marks the last column you can put a character in.
+# You must make exactly 11 lines for the formatting to be correct.  It's also
+# customary to leave one space after the ':' except on otherwise blank lines.
+
+   |-----handy-ruler------------------------------------------------------|
+lxc: LXC (Linux Containers)
+lxc:
+lxc: LXC is the well known set of tools, templates, library and language 
+lxc: bindings. It's pretty low level, very flexible and covers just about 
+lxc: every containment feature supported by the upstream kernel.
+lxc:
+lxc: https://linuxcontainers.org/
+lxc:
+lxc:
+lxc:
+lxc:

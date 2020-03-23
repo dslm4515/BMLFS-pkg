@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description. Line
+# up the first '|' above the ':' following the base package name, and the '|' on
+# the right side marks the last column you can put a character in.  You must make
+# exactly 11 lines for the formatting to be correct.  It's also customary to
+# leave one space after the ':'.
+
+       |-----handy-ruler------------------------------------------------------|
+tlsdate: tlsdate (secure parasitic rdate replacement)
+tlsdate:
+tlsdate: tlsdate sets the local clock by securely connecting with TLS to 
+tlsdate: remote servers and extracting the remote time out of the secure 
+tlsdate: handshake. Unlike ntpdate, tlsdate uses TCP, for instance connecting 
+tlsdate: to a remote HTTPS or TLS enabled service, and provides some 
+tlsdate: protection against adversaries that try to feed you malicious time 
+tlsdate: information.
+tlsdate:
+tlsdate: Homepage: https://github.com/ioerror/tlsdate
+tlsdate: 

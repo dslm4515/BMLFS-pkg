@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.  Line
+# up the first '|' above the ':' following the base package name, and the '|'
+# on the right side marks the last column you can put a character in.  You must
+# make exactly 11 lines for the formatting to be correct.  It's also
+# customary to leave one space after the ':'.
+
+       |-----handy-ruler------------------------------------------------------|
+jbigkit: jbigkit (JBIG-KIT)
+jbigkit:
+jbigkit: A software implementation of the JBIG1 data compression standard 
+jbigkit: (ITU-T T.82), which was designed for bi-level image data, such as 
+jbigkit: scanned documents. This library is available in portable C code. It 
+jbigkit: is widely used in fax products, printer firmware, printer drivers, 
+jbigkit: document management systems and imaging software.
+jbigkit:
+jbigkit:
+jbigkit:
+jbigkit:
