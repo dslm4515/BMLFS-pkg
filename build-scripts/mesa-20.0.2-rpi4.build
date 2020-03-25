@@ -1,0 +1,56 @@
+#! /bin/bash
+
+# Mesa for Raspberry Pi 4
+# syntax *.build <package.tar.xz> <number of make jobs>
+
+# Extract package info
+export PACKAGE=$(echo "$1" | sed -n '/\.tar\.xz$/s///p' ) &&
+export PACKAGENAME=$(echo ${PACKAGE} | cut -d "-" -f 1 ) &&
+export PVER=$(echo ${PACKAGE} | cut -d "-" -f 2 ) &&
+
+cd $PACKAGE &&
+sudo mkdir -pv /BUILD/install &&
+sudo cp -v /sources/descs/${PACKAGENAME} /BUILD/install/ &&
+
+# patches from Void Linux
+for p in add-use-elf-tls.patch   fix-libXvMC-versioning.patch musl-endian.patch musl-stacksize.patch musl.patch no-unlink-megadrivers.patch parallel-build.patch; do 
+	patch -Np0 -i ../patches/mesa-20.0.2/$p
+done
+
+# For xdemos (addtional tools)
+patch -Np1 -i ../patches/mesa-19.3.4-add_xdemos-1.patch
+
+mkdir -v build && cd build
+
+meson --prefix=$XORG_PREFIX                    \
+      -Dbuildtype=release                      \
+      -Ddri-drivers=                           \
+      -Dgallium-drivers=kmsro,v3d,vc4,swrast   \
+      -Dvulkan-drivers=                        \
+      -Dgallium-xa=false                       \
+      -Ddri3=true                              \
+      -Dglvnd=false                            \
+      -Dshared-glapi=true                      \
+      -Dgbm=true                               \
+      -Degl=true                               \
+      -Dgallium-vdpau=false                    \
+      -Dgallium-xvmc=false                     \
+      -Dosmesa=gallium                         \
+      -Dgles1=true                             \
+      -Dgles2=true                             \
+      -Dgallium-va=false                       \
+      -Dplatforms=x11,drm,wayland,surfaceless  \
+      -Dllvm=true                              \
+      -Db_lto=false                            \
+      -Duse-elf-tls=false                      \
+      -Dglx=dri  ..
+
+ninja 
+
+sudo DESTDIR=/BUILD ninja install
+
+cd /BUILD
+
+sudo makepkg -l y -c n /PKG/${PACKAGE}-${PKG_SUFFIX}
+
+sudo installpkg /PKG/{PACKAGE}-{PKG_SUFFIX}
